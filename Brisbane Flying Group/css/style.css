@@ -1,0 +1,96 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	font-family: impact;
+	text-decoration: none;
+	color: #444444;
+}
+
+.body {
+	height: calc(100vh - 130px);
+	margin: 30px;
+	background-color: #FAF9F9;
+	text-align: center;
+	padding-top: 60px;
+}
+
+.title {
+	font-size: 50px;
+}
+
+.title-sub {
+	position: relative;
+	font-size: 20px;
+	top: -10px;
+	margin: 0 120px 0 120px;
+}
+
+.sub {
+	position: relative;
+	top: 10px;
+	font-size: 25px;
+	top: -18px;
+}
+
+.left {
+	margin-left: 60px;
+}
+
+.right {
+	margin-right: 60px;
+}
+
+img {
+	position: relative;
+	width: 680px;
+	height: 340px;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+
+.text {
+	font-family: Segoe UI;
+	color: #707070;
+}
+
+.photo-slider div:hover {
+	cursor: pointer;
+}
+
+#dot-1 {
+	display: block;
+	position: absolute;
+	left: 48%;
+	transform: translateX(-50%);
+	width: 25px;
+	height: 25px;
+	margin-top: -40px;
+	background-color: #898989;
+	border-radius: 100px;
+}
+
+#dot-2 {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 25px;
+	height: 25px;
+	margin-top: -40px;
+	background-color: #5C5B5B;
+	border-radius: 100px;
+}
+
+#dot-3 {
+	position: absolute;
+	left: 52%;
+	transform: translateX(-50%);
+	width: 25px;
+	margin-top: -40px;
+	height: 25px;
+	background-color: #5C5B5B;
+	border-radius: 100px;
+}

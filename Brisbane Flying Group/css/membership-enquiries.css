@@ -1,0 +1,143 @@
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #B7B7B7;
+  opacity: 1; /* Firefox */
+  font-size: 30px;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #B7B7B7;
+  font-size: 30px;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #B7B7B7;
+  font-size: 30px;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+.aa {
+	font-family: impact;
+	text-decoration: none;
+	color: #444444;
+}
+
+.body {
+	margin: 30px;
+	background-color: #FAF9F9;
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+.title {
+	font-size: 50px;
+}
+
+.title-sub {
+	position: relative;
+	font-size: 20px;
+	top: -10px;
+	margin: 0 120px 0 120px;
+}
+
+.sub {
+	position: relative;
+	top: 10px;
+	font-size: 25px;
+	top: -18px;
+}
+
+.left {
+	margin-left: 60px;
+}
+
+.right {
+	margin-right: 60px;
+}
+
+img {
+	width: 300px;
+	height: 108px;
+	margin-top: 50px;
+	transition-duration: 0.3s;
+	margin-bottom: 30px;
+}
+
+img:hover {
+	cursor: pointer;
+	opacity: 0.5;
+}
+
+.contact-info {
+	font-family: georgia;
+	font-weight: bold;
+	font-size: 20px;
+	color: #707070;
+}
+
+
+.contact-form {
+	position: relative;
+	width: 550px;
+	height: 600px;
+	background-color: #F0EFEF;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-top: 60px;
+	border-radius: 10px;
+}
+
+.title-box {
+	width: 100%;
+	height: 80px;
+	background-color: #707070;
+	border-radius: 10px 10px 0 0;
+}
+
+.contact-form .title {
+	position: relative;
+	color: #DCDCDC;
+	font-size: 40px;
+	font-family: impact;
+	text-align: center; 
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.input {
+	position: relative;
+	background-color: #FAFAFA;
+	border: #707070 solid 1px;
+	color: #B7B7B7;
+	font-family: impact;
+	font-size: 20px;
+	width: 250px;
+	height: 62px;
+	border-radius: 5px;
+	padding-left: 10px;
+	left: -102px;
+	margin-top: 20px;
+}
+
+.message {
+	left: -30px;
+	width: 400px;
+	height: 150px;
+	resize: vertical;
+}
+
+.button {
+	background-color: #6C6C6C;
+	color: #DCDCDC;
+	width: 200px;
+	height: 50px;
+	border: none;
+	font-family: impact;
+	font-size: 32px;
+	border-radius: 8px;
+	margin-top: 10px;
+}

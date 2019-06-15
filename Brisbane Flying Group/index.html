@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Homepage</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/animations.css">
+</head>
+<body>
+	<div class="body">
+		<a class="title" href="index.html">Brisbane Flying Group</a> 
+		<br>
+		<a class="sub left" href="membership-enquiries.html">Enquiries</a>
+		<a class="sub left" href="https://www.aircraftbookingsystem.com/">Booking Site</a>
+		<a class="title-sub" href="index.html">A flying group based at Archerfield Airport</a>
+		<a class="sub right" href="about-us.html">About Us</a>
+		<a class="sub right" href="members-info.html">Members Info</a>
+		
+		<div class="photo-slider">
+			<img class="mySlides w3-animate-left" id="img-1" src="img/home-page.jpg">
+			<img class="mySlides w3-animate-left" id="img-2" src="img/vh-wpl.jpg" style="display:none">
+			<img class="mySlides w3-animate-left" id="img-3" src="img/wpi-15.jpg" style="display:none">
+			<div onclick="nextPicture(1)" id="dot-1"></div>
+			<div onclick="nextPicture(2)" id="dot-2"></div>
+			<div onclick="nextPicture(3)" id="dot-3"></div>
+			<p class="text">A Group of Owner Pilots operating two Cessna 172 S aircraft from Archerfield (YBAF) in Brisbane Australia.</p>	
+		</div>
+	</div>
+	<script>
+
+		var picture = 1;
+
+		setInterval(function(){
+			picture++;
+			if (picture == 4) {
+				picture = 1;
+			}
+			nextPicture(picture);
+		},2500)
+
+		function nextPicture(pic) {
+			if  (pic == 1) {
+				document.getElementById("img-1").style.display = "block";
+				document.getElementById("img-2").style.display = "none";
+				document.getElementById("img-3").style.display = "none";
+
+				document.getElementById("dot-1").style.backgroundColor = "#898989";
+				document.getElementById("dot-2").style.backgroundColor = "#5C5B5B";
+				document.getElementById("dot-3").style.backgroundColor = "#5C5B5B";
+			}
+			if  (pic == 2) {
+				document.getElementById("img-1").style.display = "none";
+				document.getElementById("img-2").style.display = "block";
+				document.getElementById("img-3").style.display = "none";
+
+				document.getElementById("dot-1").style.backgroundColor = "#5C5B5B";
+				document.getElementById("dot-2").style.backgroundColor = "#898989";
+				document.getElementById("dot-3").style.backgroundColor = "#5C5B5B";
+			}
+			if  (pic == 3) {
+				document.getElementById("img-1").style.display = "none";
+				document.getElementById("img-2").style.display = "none";
+				document.getElementById("img-3").style.display = "block";
+			
+				document.getElementById("dot-1").style.backgroundColor = "#5C5B5B";
+				document.getElementById("dot-2").style.backgroundColor = "#5C5B5B";
+				document.getElementById("dot-3").style.backgroundColor = "#898989";
+			}
+		}
+	</script>
+</body>
+</html>

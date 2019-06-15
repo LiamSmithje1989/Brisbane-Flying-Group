@@ -1,0 +1,53 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	font-family: impact;
+	text-decoration: none;
+	color: #444444;
+}
+
+.body {
+	height: calc(100vh - 130px);
+	margin: 30px;
+	background-color: #FAF9F9;
+	text-align: center;
+	padding-top: 60px;
+}
+
+.title {
+	font-size: 50px;
+}
+
+.title-sub {
+	position: relative;
+	font-size: 20px;
+	top: -10px;
+	margin: 0 120px 0 120px;
+}
+
+.sub {
+	position: relative;
+	top: 10px;
+	font-size: 25px;
+	top: -18px;
+}
+
+.left {
+	margin-left: 60px;
+}
+
+.right {
+	margin-right: 60px;
+}
+
+.coming {
+	position: absolute;
+	font-size: 120px;
+	color: #444444;
+	left: 50%;
+	top: 34%;
+	transform: translate(-50%, -50%);
+}
